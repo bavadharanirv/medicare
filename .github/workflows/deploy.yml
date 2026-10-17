@@ -33,7 +33,7 @@ jobs:
         run: npm ci
 
       - name: Build MediCare
-        run: npm run build
+        run: npm run build:github
 
       - name: Upload production build
         uses: actions/upload-pages-artifact@v3
