@@ -1,0 +1,287 @@
+{
+  "doctors": [
+    {
+      "id": "101",
+      "name": "Dr. Arun Kumar",
+      "specialty": "Cardiologist",
+      "experience": 12,
+      "rating": 4.8,
+      "fee": 700,
+      "hospital": "City Care Hospital",
+      "available": true,
+      "slots": [
+        "09:00 AM",
+        "01:00 PM",
+        "05:00 PM"
+      ]
+    },
+    {
+      "id": "102",
+      "name": "Dr. Priya Sharma",
+      "specialty": "Dermatologist",
+      "experience": 8,
+      "rating": 4.7,
+      "fee": 500,
+      "hospital": "Apollo Medical Center",
+      "available": true,
+      "slots": [
+        "09:00 AM",
+        "01:00 PM",
+        "05:00 PM"
+      ]
+    },
+    {
+      "id": "103",
+      "name": "Dr. Rajesh Kumar",
+      "specialty": "Orthopedic",
+      "experience": 15,
+      "rating": 4.9,
+      "fee": 800,
+      "hospital": "Ganga Hospital",
+      "available": true,
+      "slots": [
+        "09:00 AM",
+        "01:00 PM",
+        "05:00 PM"
+      ]
+    },
+    {
+      "id": "104",
+      "name": "Dr. Meena Devi",
+      "specialty": "Pediatrician",
+      "experience": 10,
+      "rating": 4.8,
+      "fee": 600,
+      "hospital": "KMCH Hospital",
+      "available": true,
+      "slots": [
+        "09:00 AM",
+        "01:00 PM",
+        "05:00 PM"
+      ]
+    },
+    {
+      "id": "105",
+      "name": "Dr. Karthik Raj",
+      "specialty": "Neurologist",
+      "experience": 18,
+      "rating": 4.9,
+      "fee": 1000,
+      "hospital": "PSG Hospital",
+      "available": false,
+      "slots": [
+        "09:00 AM",
+        "01:00 PM",
+        "05:00 PM"
+      ]
+    },
+    {
+      "id": "106",
+      "name": "Dr. Divya Mohan",
+      "specialty": "General Physician",
+      "experience": 7,
+      "rating": 4.6,
+      "fee": 400,
+      "hospital": "Sri Ram Hospital",
+      "available": true,
+      "slots": [
+        "09:00 AM",
+        "01:00 PM",
+        "05:00 PM"
+      ]
+    }
+  ],
+  "availability": [
+    {
+      "id": "1",
+      "doctorId": "101",
+      "date": "2026-10-16"
+    },
+    {
+      "id": "2",
+      "doctorId": "102",
+      "date": "2026-10-16"
+    },
+    {
+      "id": "3",
+      "doctorId": "103",
+      "date": "2026-10-17"
+    },
+    {
+      "id": "4",
+      "doctorId": "104",
+      "date": "2026-10-17"
+    },
+    {
+      "id": "5",
+      "doctorId": "106",
+      "date": "2026-10-18"
+    },
+    {
+      "id": "6",
+      "doctorId": "102",
+      "date": "2026-11-04"
+    }
+  ],
+  "slots": [
+    {
+      "id": "1",
+      "doctorId": "101",
+      "date": "2026-10-16",
+      "time": "09:00 AM",
+      "available": true
+    },
+    {
+      "id": "2",
+      "doctorId": "101",
+      "date": "2026-10-16",
+      "time": "01:00 PM",
+      "available": true
+    },
+    {
+      "id": "3",
+      "doctorId": "101",
+      "date": "2026-10-16",
+      "time": "05:00 PM",
+      "available": true
+    },
+    {
+      "id": "4",
+      "doctorId": "102",
+      "date": "2026-10-16",
+      "time": "09:00 AM",
+      "available": true
+    },
+    {
+      "id": "5",
+      "doctorId": "102",
+      "date": "2026-10-16",
+      "time": "01:00 PM",
+      "available": true
+    },
+    {
+      "id": "6",
+      "doctorId": "102",
+      "date": "2026-10-16",
+      "time": "05:00 PM",
+      "available": true
+    },
+    {
+      "id": "7",
+      "doctorId": "102",
+      "date": "2026-11-04",
+      "time": "09:00 AM",
+      "available": true
+    },
+    {
+      "id": "8",
+      "doctorId": "102",
+      "date": "2026-11-04",
+      "time": "01:00 PM",
+      "available": true
+    },
+    {
+      "id": "9",
+      "doctorId": "102",
+      "date": "2026-11-04",
+      "time": "05:00 PM",
+      "available": true
+    }
+  ],
+  "appointments": [
+    {
+      "doctorId": "104",
+      "doctorName": "Dr. Meena Devi",
+      "specialty": "Pediatrician",
+      "fee": 600,
+      "date": "2026-10-21",
+      "time": "01:00 PM",
+      "patient": {
+        "name": "bavadharani rv",
+        "age": 22,
+        "phone": "9488640208",
+        "email": ""
+      },
+      "status": "Booked",
+      "id": "9kKE8lGXRnk"
+    },
+    {
+      "doctorId": "101",
+      "doctorName": "Dr. Arun Kumar",
+      "specialty": "Cardiologist",
+      "fee": 700,
+      "date": "2026-10-22",
+      "time": "01:00 PM",
+      "patient": {
+        "name": "nethra",
+        "age": 12,
+        "phone": "1123456789",
+        "email": ""
+      },
+      "status": "Booked",
+      "id": "1792135248427",
+      "patientId": "PAT-1792134710111-pqba7"
+    },
+    {
+      "doctorId": "101",
+      "doctorName": "Dr. Arun Kumar",
+      "specialty": "Cardiologist",
+      "fee": 700,
+      "date": "2026-10-27",
+      "time": "01:00 PM",
+      "patient": {
+        "name": "bavadharani rv",
+        "age": 12,
+        "phone": "9488640208",
+        "email": ""
+      },
+      "status": "Booked",
+      "id": "1792203080149",
+      "patientId": "PAT-1792111580618-bpttw"
+    },
+    {
+      "doctorId": "101",
+      "doctorName": "Dr. Arun Kumar",
+      "specialty": "Cardiologist",
+      "fee": 700,
+      "date": "2026-10-28",
+      "time": "01:00 PM",
+      "patient": {
+        "name": "bavadharani rv",
+        "age": 12,
+        "phone": "9488640208",
+        "email": ""
+      },
+      "status": "Booked",
+      "id": "1792203428047",
+      "patientId": "PAT-1792111580618-bpttw"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json",
+  "users": [
+    {
+      "id": "PAT-1792111580618-bpttw",
+      "name": "bavadharani rv",
+      "email": "bavadharanirv@gmail.com",
+      "passwordHash": "$2b$10$21h85HboKhPFf/k0KM0l7udVGQi60Cu1zhCbxKc5D5jWVWD7zbpQe"
+    },
+    {
+      "id": "PAT-1792111810928-btfv8",
+      "name": "rathishraghav",
+      "email": "ratheeshragav0@gmail.com",
+      "passwordHash": "$2b$10$0TJ3GTtoKnXe0DrWnrtdKeULW727k0SRyY5YFYLo9AAtCRAgN7N76"
+    },
+    {
+      "id": "PAT-1792134710111-pqba7",
+      "name": "bav",
+      "email": "bavadharanirv@gmail.n",
+      "passwordHash": "$2b$10$6J99zTP.XlWbOUh8S2bITuQdq9q470GUsW1eI/kLiuAXG24CY9Y0u"
+    },
+    {
+      "id": "PAT-1792141373958-0hxm4",
+      "name": "bavadharani rv",
+      "email": "bavanirv@gmail.com",
+      "passwordHash": "$2b$10$v13UHDD0Y5m9op5XPeBkSO/GLOqPO1uMBYyeSE9UxevuT9i5A7fpa"
+    }
+  ]
+}
