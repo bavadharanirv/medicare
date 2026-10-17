@@ -1,5 +1,5 @@
 
-import { fetchWithCache } from "../store/doctorCache.js";
+import { fetchWithCache } from ".../store/doctorCache.js";
 
 const API_URL = "http://localhost:3000";
 
